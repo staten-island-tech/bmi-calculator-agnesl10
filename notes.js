@@ -23,8 +23,27 @@ const number1 = 72;
 const number2 = 9;
 let add = number1 + number2; //math
 let subtract = number1 + number2; // you cand do multiplication and division using "mult" and "div"
-console.log(add);
+console.log(add); // can do two functions (mult, div)
 
+//functions and params//
+function test() {
+  // declare with ()
+  console.log("This is a test."); // prints it in console.
+}
+test(); // call the function, you can call function before you every declare it.
+
+function argument(student) { // accepts and argument
+  console.log("this is my student ${student}"); 
+}
+argument("claire");// not text specific, both works
+argument(8);
+
+function add (x,y){
+    return x + y; // to get the value back with return, if u don't have return it is undefined. sends product for output.
+}
+console,log(add(7,9));
+const answer = add(7,0);
+console.log(answer)
 //--------------//
 //TRUTH TABLES : ^ = and  v = or
 // null and operations//
